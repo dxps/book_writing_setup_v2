@@ -5,13 +5,11 @@ page:
   margin: [0.75in, 0.75in, 0.85in, 0.75in]
 
 base:
-  font-family: Noto Serif
   font-size: 10.5
   line-height-length: 15
   line-height: $base-line-height-length / $base-font-size
 
 heading:
-  font-family: Noto Sans
   font-color: 1f2933
   h1-font-size: 26
   h2-font-size: 20
@@ -21,10 +19,9 @@ link:
   font-color: 075985
 
 code:
-  font-family: M+ 1mn
   font-size: 9
 
-literal:
+codespan:
   background-color: f5f7fa
   border-color: d8dee9
   border-radius: 4
@@ -38,4 +35,3 @@ footer:
   verso:
     left:
       content: "{page-number}"
-
