@@ -1,0 +1,21 @@
+== Introduction
+
+Open with the reader's world: the system they are building, the constraints they face, and the reason this topic matters.
+
+=== What This Book Covers
+
+This book focuses on practical, working knowledge. Each chapter should leave the reader with a clear concept, a runnable example, and a decision they are better equipped to make.
+
+=== Conventions
+
+Commands are shown like this:
+
+[source,sh]
+----
+make all
+----
+
+Important notes use admonitions:
+
+NOTE: Replace placeholder sections with the specifics of your book as the outline firms up.
+

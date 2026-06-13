@@ -1,0 +1,22 @@
+== Development Environment
+
+Describe the tools the reader needs before they begin.
+
+=== Prerequisites
+
+* A recent terminal environment
+* A text editor
+* The language runtime or SDK used by the examples
+
+=== Verifying The Setup
+
+Use small checks that produce predictable output.
+
+[source,sh]
+----
+ruby --version
+bundle --version
+----
+
+TIP: Keep setup instructions boring and repeatable. Readers forgive simple prerequisites much more readily than mysterious tool failures.
+

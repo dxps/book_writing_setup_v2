@@ -1,0 +1,44 @@
+= Technical Book Title
+:author: Your Name
+:email: you@example.com
+:doctype: book
+:lang: en
+:encoding: utf-8
+:toc: left
+:toclevels: 3
+:sectnums:
+:sectnumlevels: 3
+:chapter-signifier: Chapter
+:icons: font
+:xrefstyle: short
+:figure-caption: Figure
+:table-caption: Table
+:listing-caption: Listing
+:source-language: text
+:imagesdir: assets/images
+// Uncomment after adding assets/images/cover.png.
+// :front-cover-image: image:cover.png[Front Cover,1050,1600]
+
+[abstract]
+== Abstract
+
+Write a short promise for the book here: who it is for, what problem it helps them solve, and what they will be able to do by the end.
+
+[preface]
+== Preface
+
+Use the preface for context, prerequisites, conventions, and acknowledgments.
+
+include::chapters/01-introduction.adoc[]
+
+include::chapters/02-development-environment.adoc[]
+
+include::chapters/03-working-example.adoc[]
+
+[appendix]
+== Appendix A: Further Reading
+
+Add references, extended notes, or version-specific details here.
+
+[index]
+== Index

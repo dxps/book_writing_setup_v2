@@ -1,0 +1,25 @@
+== A Working Example
+
+This chapter demonstrates how to include code from the repository instead of copying snippets by hand.
+
+[source,ruby]
+----
+include::../examples/hello.rb[]
+----
+
+=== Callouts
+
+AsciiDoc supports code callouts for technical explanation:
+
+[source,ruby]
+----
+message = "hello, book" # <1>
+puts message            # <2>
+----
+<1> Store the message in a variable.
+<2> Print it to standard output.
+
+=== Cross References
+
+You can refer back to <<_development_environment>> or forward to other sections as the manuscript grows.
+
